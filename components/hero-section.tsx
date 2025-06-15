@@ -14,7 +14,7 @@ export function HeroSection() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="text-left">
               <h1 className="text-5xl lg:text-7xl font-bold mb-6">
-                A <span className="text-green-400">New Era</span> for
+                A <span style={{ color: "#91F877" }}>New Era</span> for
                 <br />
                 Inscription Assets
               </h1>

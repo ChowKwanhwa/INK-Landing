@@ -8,10 +8,11 @@ export const metadata: Metadata = {
   authors: [{ name: 'INK Protocol Team' }],
   creator: 'INK Protocol',
   publisher: 'INK Protocol',
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/favicon.ico',
-  },
+  icons: [
+    { rel: 'icon', url: '/favicon.ico' },
+    { rel: 'apple-touch-icon', url: '/favicon.ico' },
+    { rel: 'shortcut icon', url: '/favicon.ico' }
+  ],
   openGraph: {
     type: 'website',
     locale: 'en_US',
