@@ -101,16 +101,6 @@ export function FeaturesSection() {
                 height={400}
                 className="object-contain w-full"
               />
-              <div className="absolute bottom-28 left-2">
-                <div className="h-10 px-8 bg-gray-800/70 border border-white/10 rounded-full flex items-center justify-center shadow-md">
-                  <Sparkles className="w-5 h-5 text-white" />
-                </div>
-              </div>
-              <div className="absolute bottom-2 right-4">
-                <div className="h-14 px-8 bg-gray-900/70 backdrop-blur-sm border border-white/10 rounded-full flex items-center justify-center shadow-md">
-                  <span className="text-white text-sm font-medium">SWAP Trading</span>
-                </div>
-              </div>
             </div>
             <div className="lg:col-span-3">
               <h3 className="text-5xl font-bold mb-6">
@@ -171,16 +161,6 @@ export function FeaturesSection() {
                 height={400}
                 className="rounded-2xl object-cover w-full"
               />
-              <div className="absolute -top-1 -left-1 transform">
-                <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-md">
-                  <ArrowUpRight className="w-8 h-8 text-black" />
-                </div>
-              </div>
-              <div className="absolute -bottom-1 -right-1 transform">
-                <div className="h-16 px-10 bg-gray-900/70 backdrop-blur-sm border border-white/10 rounded-full flex items-center justify-center shadow-md">
-                  <Flame className="w-9 h-9 text-blue-400" />
-                </div>
-              </div>
             </div>
           </div>
 
